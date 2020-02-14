@@ -1,0 +1,5 @@
+FROM confluentinc/cp-kafka-connect-base:5.4.0
+
+FROM confluentinc/cp-kafka-connect-base:5.4.0
+
+COPY target/components/packages/my-connector-5.4.0.zip /tmp/my-connector-5.4.0.zip
